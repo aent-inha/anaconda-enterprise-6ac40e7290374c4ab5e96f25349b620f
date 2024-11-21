@@ -1,0 +1,30 @@
+name: Attractors
+description: A panel dashboard using datashader to interact with attractor equations.
+categories:
+  - Python
+  - Panel
+
+commands:
+  dashboard:
+    unix: panel serve attractors.ipynb
+    supports_http_options: true
+  notebook:
+    notebook: attractors.ipynb
+
+packages:
+  - numba
+  - python
+  - datashader
+  - numpy
+  - ipykernel
+  - nbconvert
+  - colorcet
+  - fiona
+  - geoviews
+  - panel
+  - pandas
+platforms:
+  - linux-64
+
+env_specs:
+  sampleproj: {}
